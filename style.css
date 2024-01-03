@@ -1,56 +1,73 @@
-nav {
-    background: linear-gradient(to right, #3a7bd5, #9b59b6); /* Gradient background */
-    padding: 10px 20px;
+body {
+    background: linear-gradient(to right, #3a7bd5, #9b59b6);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .container {
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.nav-links {
+    position: relative;
+    list-style: none;
     display: flex;
     align-items: center;
-  }
-  
-  h1 {
-    color: white;
-    margin: 0;
-  }
-  
-  .menu-button {
-    background-color: transparent;
+}
+
+.menu-button {
+    background: none;
     border: none;
-    color: white;
-    padding: 10px 15px;
+    font-size: 50px;
     cursor: pointer;
-  }
-  
-  .dropdown-menu {
-    display: none; /* Hide initially */
+    color: #DCCDC5;
+    display: flex;
+    align-items: center; 
+}
+
+.dropdown {
+    display: none;
     position: absolute;
-    background-color: #fff;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; /* Ensure it appears above other elements */
-  }
-  
-  .menu-button:hover .dropdown-menu {
-    display: block; /* Show on hover */
-  }
-  
-  .dropdown-menu li {
-    list-style: none;
+    top: 100%;
+    right: 0;
+    background: #DCCDC5;
     padding: 10px;
-  }
-  
-  .dropdown-menu li a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .go-button {
-    background-color: #fff;
-    color: #3a7bd5;
-    padding: 10px 15px;
-    border: none;
-    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    margin-bottom: 5px;
+    list-style: none;
     font-weight: bold;
-  }
+}
+
+.dropdown a {
+    text-decoration: none;
+    color:#9b59b6;
+}
+
+.dropdown a:hover {
+    color: #3a7bd5;
+}
+.menu{
+    color:#DCCDC5;
+    font-weight: bold;
+    font-size: 26px;
+    margin-right: 10px;
+}
