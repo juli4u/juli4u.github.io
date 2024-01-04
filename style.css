@@ -150,13 +150,38 @@ nav {
 
 #About {
     background-color:linear-gradient(to right, #3a7bd5, #9b59b6);
-    padding: 400px; 
+    padding: 300px; 
     font-weight: bold;
     color:#DCCDC5;
 }
 
 .p-about {
     text-align: center;
+    padding-bottom: 100px;
 }
 
-.clck
+.click {
+    border-color: #DCCDC5;
+    background-color: transparent; 
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block; 
+    margin: 0 auto; 
+    border-width: 10px;
+    font-family: MosaicoTall Tall;
+    font-weight: bold;
+    font-size: 30px;
+    color: #DCCDC5;
+}
+
+#Gallery{
+    padding: 400px;
+    background-color:linear-gradient(to right, #3a7bd5, #9b59b6);
+}
+
+#About a{
+    text-decoration: none;
+}
