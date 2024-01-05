@@ -13,12 +13,15 @@ boxes.forEach(box => {
 
 const showAboutButton = document.querySelector('.show-about-button');
 showAboutButton.addEventListener('click', () => {
-    const aboutSection = document.querySelector('#about');
+    const aboutSection = document.querySelector('#About');
     aboutSection.style.display = 'block';
 });
 
 const showGalleryButton = document.querySelector('.show-gallery-button');
-showAboutButton.addEventListener('click', () => {
-    const aboutSection = document.querySelector('#Gallery');
-    aboutSection.style.display = 'block';
+showGalleryButton.addEventListener('click', () => {
+    const gallerySection = document.querySelector('#Gallery');
+    gallerySection.style.display = 'block';
 });
+
+
+

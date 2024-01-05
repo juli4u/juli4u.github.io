@@ -185,3 +185,38 @@ nav {
 #About a{
     text-decoration: none;
 }
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    fill: #333;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
