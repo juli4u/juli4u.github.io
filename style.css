@@ -206,7 +206,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100px; 
-    transition: height 0.3s ease; 
+    transition: height 1s ease; 
     cursor: pointer; 
     margin-top: 20px;
 }
@@ -219,3 +219,50 @@ nav {
     object-fit: contain;
     fill: #dccdc5; 
 }
+
+.firstnftart{
+    display: flex;
+    padding:100px;
+}
+
+.img-box{
+    flex: 1;
+}
+
+.img-box img{
+    height: 300px;
+    width: auto;
+}
+
+.text-box{
+    flex: 1;
+    padding-left: 50px;
+}
+
+.text-box h2,
+.text-box p {
+    text-align: center;
+    color: #DCCDC5;
+}
+
+.secondnftart{
+    display: flex;
+    padding:100px;
+}
+
+.thridnftart{
+    display: flex;
+    padding:100px;
+}
+
+.fourthnftart{
+    display: flex;
+    padding:100px;
+}
+
+.fifthnftart{
+    display: flex;
+    padding:100px;
+}
+
+
