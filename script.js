@@ -35,4 +35,3 @@ downArrow.addEventListener('click', () => {
     isToggled = !isToggled;
 });
 
-
