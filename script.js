@@ -23,15 +23,5 @@ showGalleryButton.addEventListener('click', () => {
     gallerySection.style.display = 'block';
 });
 
-const downArrow = document.querySelector('.down-arrow');
-let isToggled = false;
 
-downArrow.addEventListener('click', () => {
-    if (!isToggled) {
-        downArrow.style.height = '300px';
-    } else {
-        downArrow.style.height = '100px';
-    }
-    isToggled = !isToggled;
-});
 

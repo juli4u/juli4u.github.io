@@ -273,7 +273,16 @@ nav {
 
 .fifthnftart{
     display: grid;
-    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.sixthnftart{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
     gap: 50px;
     justify-content: center;
     align-items: center;
@@ -281,5 +290,52 @@ nav {
 }
 
 
+.seventhnftart{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
 
+.eighthnftart{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
 
+.ninthnftart{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.tenthnftart{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.eleventhnftart {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.eleventhnftart img{
+    height:400px;
+    width:auto;
+}
