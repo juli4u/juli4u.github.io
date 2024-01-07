@@ -339,3 +339,7 @@ nav {
     height:400px;
     width:auto;
 }
+
+#Gallery a{
+    text-decoration: none;
+}
