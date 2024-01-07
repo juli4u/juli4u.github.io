@@ -343,3 +343,8 @@ nav {
 #Gallery a{
     text-decoration: none;
 }
+
+.text-box p{
+    padding-bottom: 20px;
+}
+
