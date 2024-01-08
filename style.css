@@ -348,3 +348,67 @@ nav {
     padding-bottom: 20px;
 }
 
+footer{
+    background-color: #DAB3F6;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+}
+
+.logo-img img{
+    height: auto;
+    width: 290px;
+}
+
+.logo-img{
+    padding-left: 10px;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.text-1 h2{
+    font-family: MosaicoTall Tall;
+    font-size: 35px;
+}
+
+.email img{
+    height: 20px;
+    width: auto; 
+    padding: 5px;
+}
+
+.email{
+    align-items: center;
+    justify-content: center;
+}
+
+.text-2 img{
+    height: 30px;
+    width: auto; 
+    padding: 5px;
+}
+
+.text-2 h2{
+    font-family: MosaicoTall Tall;
+    font-size: 35px;
+}
+
+.text-3 h2{
+    font-family: MosaicoTall Tall;
+    font-size: 35px;
+}
+
+.text-3 a{
+    text-decoration: none;
+}
+
+.text-3 li{
+    list-style-type: none;
+}
+
+.text-3 a {
+    text-decoration: none;
+    color: black; 
+}

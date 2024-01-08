@@ -11,17 +11,7 @@ boxes.forEach(box => {
     });
 });
 
-const showAboutButton = document.querySelector('.show-about-button');
-showAboutButton.addEventListener('click', () => {
-    const aboutSection = document.querySelector('#About');
-    aboutSection.style.display = 'block';
-});
 
-const showGalleryButton = document.querySelector('.show-gallery-button');
-showGalleryButton.addEventListener('click', () => {
-    const gallerySection = document.querySelector('#Gallery');
-    gallerySection.style.display = 'block';
-});
 
 
 
