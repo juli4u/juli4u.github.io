@@ -351,9 +351,9 @@ nav {
 
 footer{
     background-color: #DAB3F6;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logo-img img{
@@ -427,3 +427,6 @@ footer{
     align-items: center;
 }
 
+@media screen and (max-{
+    
+}
