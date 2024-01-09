@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: MosaicoTall Tall;
     src: url(FontsFree-Net-MOSATT__.ttf);
@@ -393,23 +399,7 @@ footer{
     font-size: 35px;
 }
 
-.text-3 h2{
-    font-family: MosaicoTall Tall;
-    font-size: 35px;
-}
 
-.text-3 a{
-    text-decoration: none;
-}
-
-.text-3 li{
-    list-style-type: none;
-}
-
-.text-3 a {
-    text-decoration: none;
-    color: black; 
-}
 
 .copyright {
     font-family: MosaicoTall Tall;
@@ -424,6 +414,22 @@ footer{
     align-items: center;
 }
 
+.click1{
+    border-color: #DCCDC5;
+    background-color: transparent; 
+    text-align: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block; 
+    margin: 0 auto; 
+    border-width: 10px;
+    font-family: MosaicoTall Tall;
+    font-weight: bold;
+    font-size: 30px;
+    color: #DCCDC5;
+}
 @media screen and (max-width: 1440px) and (max-height: 900px){
     @font-face {
         font-family: MosaicoTall Tall;
@@ -850,4 +856,34 @@ footer{
         justify-content: center;
         align-items: center;
     } 
+
+    .click1{
+        border-color: #DCCDC5;
+        background-color: transparent; 
+        text-align: center; 
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block; 
+        margin: 0 auto; 
+        border-width: 10px;
+        font-family: MosaicoTall Tall;
+        font-weight: bold;
+        font-size: 30px;
+        color: #DCCDC5;
+    }
+}
+
+@media screen and (max-width: 780px) and (max-height: 1024px){
+    .maintitle{
+        font-size: 100px;
+    }
+
+    .maintitlegallery img{
+        width: 70vh; 
+        height: 50%;
+        object-fit: contain; 
+    }
+
 }
