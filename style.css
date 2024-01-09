@@ -414,3 +414,16 @@ footer{
     color: black; 
 }
 
+.copyright {
+    font-family: MosaicoTall Tall;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    background-color: #DAB3F6;
+    margin: auto; 
+    width: 100%; 
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
