@@ -253,12 +253,40 @@ nav {
         grid-template-columns: 1fr;
     }
     .img_container, .text_container{
-        order: unset;
-        margin: 0;
+        object-fit: cover;
         width: 100%;
     }
 
-    #Home .box-3{
+    #Home .Box-3{
         display: none;
+    }
+    
+    .maintitle{
+        font-size: 50px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Box {
+        width: 90%; 
+        border-radius: 190px 190px 0 0; 
+        margin-bottom: 20px;
+    }
+
+    .image-container img{
+        width: 80%;
+        height: auto;
+    }
+
+    #About{
+        width: 30vw;
+    }
+
+    .p-about{
+        justify-content: center;
     }
 }
